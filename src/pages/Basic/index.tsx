@@ -1,5 +1,5 @@
 const Basic = () => {
-  return <div></div>;
+  return <div>hello world</div>;
 };
 
 export default Basic;
