@@ -24,6 +24,10 @@ const Nav = styled.nav`
   display: flex;
   align-items: center;
   padding: 0 20px;
+
+  & > * {
+    margin-right: 10px;
+  }
 `;
 
 export default MainNav;
