@@ -1,4 +1,5 @@
 import { render, screen } from '@testing-library/react';
+// https://testing-library.com/docs/ecosystem-user-event
 import userEvent from '@testing-library/user-event';
 import Event from '.';
 
