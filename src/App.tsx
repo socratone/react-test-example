@@ -13,12 +13,12 @@ function App() {
         <MainNavItem to="/basic">Basic</MainNavItem>
         <MainNavItem to="/async">Async</MainNavItem>
         <MainNavItem to="/event">Event</MainNavItem>
-        <MainNavItem to="/blur_event">BlurEvent</MainNavItem>
+        <MainNavItem to="/blur-event">BlurEvent</MainNavItem>
       </MainNav>
       <Routes>
         <Route path="/async" element={<Async />} />
         <Route path="/event" element={<Event />} />
-        <Route path="/blur_event" element={<BlurEvent />} />
+        <Route path="/blur-event" element={<BlurEvent />} />
         <Route path="*" element={<Basic />} />
       </Routes>
     </div>
