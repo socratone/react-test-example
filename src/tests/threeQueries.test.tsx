@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react';
 
 describe('3가지 Query를 쓰는 방법', () => {
-  test(`getBy`, () => {
+  test('getBy', () => {
     render(
       <div>
         <button />
@@ -12,7 +12,7 @@ describe('3가지 Query를 쓰는 방법', () => {
     expect(element).toBeInTheDocument();
   });
 
-  test(`queryBy`, () => {
+  test('queryBy', () => {
     render(
       <div>
         <button />
@@ -23,7 +23,7 @@ describe('3가지 Query를 쓰는 방법', () => {
     expect(element).toBe(null);
   });
 
-  test(`findBy`, async () => {
+  test('findBy', async () => {
     render(
       <div>
         <button />
